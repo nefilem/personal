@@ -202,6 +202,7 @@ input, select, textarea {
 			}
 
 		}
+/* KLG changed the anchor style */
 
 	a {
 		color: #fff;
@@ -211,11 +212,21 @@ input, select, textarea {
 		-webkit-transition: color 0.25s ease-in-out;
 		-ms-transition: color 0.25s ease-in-out;
 		transition: color 0.25s ease-in-out;
+		border-bottom: 8px;
+		border-color: solid white;
 	}
 
 		a:hover {
 			color: #d64760;
 		}
+
+	/* KLG 
+	.a-heavy-underline a:hover {
+		color: red;
+		border-color: solid white;
+		border-bottom: 14px;
+	}
+	*/
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
@@ -874,4 +885,4 @@ input, select, textarea {
 					display: none !important;
 				}
 
-			}
+		}
