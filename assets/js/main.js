@@ -67,7 +67,7 @@
 					settings.scrollZones.enabled = false;
 
 				// Re-enable overflow on main.
-					$main.css('overflow-x', 'auto');
+					//$main.css('overflow-x', 'auto');
 
 			}
 

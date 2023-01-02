@@ -874,7 +874,9 @@ input, select, textarea {
 			}
 
 				.poptrox-popup .caption {
-					display: none !important;
+					/* display: none !important; klg - removed this, added font-size */
+					font-size: 0.5rem;
+					line-height: 0.6rem;
 				}
 
 				.poptrox-popup .nav-next {
